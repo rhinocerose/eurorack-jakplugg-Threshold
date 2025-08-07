@@ -1,0 +1,96 @@
+(footprint "CAP_0603_C17"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at 0 0 0)
+		(layer "F.SilkS")
+		(uuid "19f935e9-1210-416f-9f46-ec80a20716aa")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(uuid "5be2a8ab-c1cd-4d59-9f64-eb5e3874dadf")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Footprint" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "df2b54d4-4efa-4f15-8dd7-0c7d629937da")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "baaac1e7-d641-438a-88d5-37c86d096beb")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "ef0bc501-684a-4761-af27-e809138c09db")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(fp_poly
+		(pts
+			(xy 0.266 0.499) (xy -0.275 0.499) (xy -0.275 -0.499) (xy 0.266 -0.499)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill solid)
+		(layer "F.SilkS")
+		(uuid "561b2d0d-1094-4a72-a016-e0547be3c8b4")
+	)
+	(pad "1" smd rect
+		(at -0.85 0 270)
+		(size 1 1.1)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(solder_mask_margin 0.1016)
+		(solder_paste_margin -0.1016)
+		(zone_connect 2)
+		(thermal_bridge_angle 0)
+		(uuid "ae540a1e-bc32-4560-a6ed-5319f0d4af3e")
+	)
+	(pad "2" smd rect
+		(at 0.85 0 270)
+		(size 1 1.1)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(solder_mask_margin 0.1016)
+		(solder_paste_margin -0.1016)
+		(zone_connect 2)
+		(thermal_bridge_angle 0)
+		(uuid "a462a4d4-e6b4-4872-b328-887cabb1bfc2")
+	)
+)

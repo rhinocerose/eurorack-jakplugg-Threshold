@@ -1,0 +1,115 @@
+(footprint "SOD-123F"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at 0 0 0)
+		(layer "F.SilkS")
+		(uuid "ef893e35-65c5-4127-b783-3843599bfe20")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(uuid "78d9ccbb-481b-420a-a4a7-a6b50f59dac3")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Footprint" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "f48855f1-2bfa-44bb-991c-09fcdd26f164")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "1f70963d-dd34-4b24-9239-175718d169a1")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "289e5c10-73eb-4665-ad95-3e4f903921bf")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(fp_line
+		(start -0.6 -0.9)
+		(end 0.6 -0.9)
+		(stroke
+			(width 0.25)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "d2c8aafb-3afa-4377-ab8c-2ce4dd63aea1")
+	)
+	(fp_line
+		(start -0.6 0.9)
+		(end 0.6 0.9)
+		(stroke
+			(width 0.25)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "20b6c8d6-cb3f-44af-ab63-793fd709ad51")
+	)
+	(fp_circle
+		(center -2.45 0)
+		(end -2.35 0)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(fill solid)
+		(layer "F.SilkS")
+		(uuid "202c0f29-4932-4f53-bf7e-93321f2113dd")
+	)
+	(pad "1" smd rect
+		(at -1.4 0)
+		(size 1.2 1.2)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(solder_mask_margin 0.1016)
+		(solder_paste_margin -0.1016)
+		(zone_connect 2)
+		(thermal_bridge_angle 0)
+		(uuid "86d27dc5-c7e9-4ef4-8530-0d5a258dda6e")
+	)
+	(pad "2" smd rect
+		(at 1.4 0)
+		(size 1.2 1.2)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(solder_mask_margin 0.1016)
+		(solder_paste_margin -0.1016)
+		(zone_connect 2)
+		(thermal_bridge_angle 0)
+		(uuid "cb597f01-9a2c-4b5a-bd1e-b47482cd2f3c")
+	)
+)

@@ -1,0 +1,165 @@
+(kicad_sch
+	(version 20231120)
+	(generator "eeschema")
+	(generator_version "8.0")
+	(uuid "b9d7dfac-6f85-4b42-98df-84e4bd21ebf7")
+	(paper "A4")
+	(lib_symbols)
+	(sheet
+		(at 127 25.4)
+		(size 12.7 3.81)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "1e61ddb0-3f8b-4028-9dec-51423691fdc8")
+		(property "Sheetname" "Sheet3"
+			(at 127 24.6884 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "Sheet3.kicad_sch"
+			(at 127 29.7946 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "threshold"
+				(path "/b9d7dfac-6f85-4b42-98df-84e4bd21ebf7"
+					(page "3")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 76.2 25.4)
+		(size 12.7 3.81)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "2c18e18d-d869-4740-9dbe-e9adad673680")
+		(property "Sheetname" "Sheet2"
+			(at 76.2 24.6884 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "Sheet2.kicad_sch"
+			(at 76.2 29.7946 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "threshold"
+				(path "/b9d7dfac-6f85-4b42-98df-84e4bd21ebf7"
+					(page "2")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 25.4 25.4)
+		(size 12.7 3.81)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "bb23688f-69cc-47f4-a684-5b750063c78a")
+		(property "Sheetname" "Sheet1"
+			(at 25.4 24.6884 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "Sheet1.kicad_sch"
+			(at 25.4 29.7946 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "threshold"
+				(path "/b9d7dfac-6f85-4b42-98df-84e4bd21ebf7"
+					(page "1")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 177.8 25.4)
+		(size 12.7 3.81)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "c3809730-2f4d-487b-bcd6-1e134c29e1d4")
+		(property "Sheetname" "xpand"
+			(at 177.8 24.6884 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "xpand.kicad_sch"
+			(at 177.8 29.7946 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "threshold"
+				(path "/b9d7dfac-6f85-4b42-98df-84e4bd21ebf7"
+					(page "4")
+				)
+			)
+		)
+	)
+	(sheet_instances
+		(path "/"
+			(page "1")
+		)
+	)
+)
